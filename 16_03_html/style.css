@@ -1,0 +1,51 @@
+.shadow-square {
+  height: 250px;
+  width: 300px;
+  background-color: royalblue;
+  position: absolute;
+  z-index: -1;
+  top: 270px;
+  right: 0px;
+}
+
+.shadow-circle {
+  height: 250px;
+  width: 250px;
+  background-color: royalblue;
+  border-radius: 55%;
+  position: absolute;
+  z-index: -1;
+  top: 270px;
+  right: 180px;
+}
+
+.middle-square {
+  height: 250px;
+  width: 300px;
+  background-color: royalblue;
+  position: absolute;
+  z-index: -1;
+  top: 1010px;
+  left: 0px;
+}
+
+.middle-circle {
+  height: 250px;
+  width: 250px;
+  background-color: royalblue;
+  border-radius: 55%;
+  position: absolute;
+  z-index: -1;
+  top: 1010px;
+  left: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  .middle-square,
+  .middle-circle {
+    top: 1350px;
+  }
+  .footer .contact-us {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
